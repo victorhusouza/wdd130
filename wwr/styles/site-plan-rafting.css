@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Tajawal&family=Underdog&display=swap');
+
+
+:root {
+    --primary-color: #DC965A;
+    --secondary-color: #242325;
+    --accent1-color: #BBB891;
+    --accent2-color: #B3B3B3;
+
+    --heading-font: "Oswald";
+    --paragraph-font: Tajawal, Helvetica, sans-serif;
+
+    --nav-link-color: #DC965A;
+    --nav-background-color: #242325;
+    --nav-hover-link-color: #BBB891;
+    --nav-hover-background-color: #B3B3B3;
+
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+  }
+
+ header {
+    padding: 1em;
+    text-align: center;
+  }
+
+p {
+    padding: 25px;
+}
+
+nav  {
+    background-color: var(--nav-background-color);
+    font-size: 1.2em;
+    display: flex;
+  }
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1em;
+  }
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
