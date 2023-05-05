@@ -17,33 +17,11 @@ nav a{
 
 h1 {
     color: steelblue;
+    padding: .5em;
 }
 
-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-    margin: 0 0 1em 1em;
-}
-
-
-
-aside {
-    width: 20em;
-    text-align: center;
-}
-
-aside h2 {
-    position: absolute;
-    top: 400px;
-    left: 100px;
-}
-
-aside img {
-    width: 200px;
-    height: auto;
+main {
+    max-width: 640px;
 }
 
 main img {
@@ -56,7 +34,22 @@ main img {
     margin: 0 0 1em 1em;
 }
 
-p{ padding: 0;}
+aside {
+    width: 20em;
+    text-align: center;
+    position: relative;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+aside h2 {
+    position: absolute;
+    top: -6px;
+    left: 70px;
+}
 
 footer {
     margin-top: 1em;
