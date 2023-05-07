@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Tajawal&family=Underdog&display=swap');
+
+
+:root {
+    --primary-color: #DC965A;
+    --secondary-color: #242325;
+    --accent1-color: #BBB891;
+    --accent2-color: #B3B3B3;
+
+    --heading-font: "Oswald";
+    --paragraph-font: Tajawal, Helvetica, sans-serif;
+
+    --nav-link-color: #DC965A;
+    --nav-background-color: #242325;
+    --nav-hover-link-color: #BBB891;
+    --nav-hover-background-color: #B3B3B3;
+
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+  }
+
+h1 {
+    position: absolute;
+}
+article {
+    position: absolute;
+    
+}
+
+article img{
+    float: right;
+}
+
+
+ header {
+    padding: 1em;
+    text-align: center;
+  }
+
+p {
+    padding: 25px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
