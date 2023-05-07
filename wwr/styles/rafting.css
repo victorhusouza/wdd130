@@ -63,3 +63,7 @@ p {
     width: 100%;
     height: auto;
 }
+
+footer img {
+    width: 200px;
+}
