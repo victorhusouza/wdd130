@@ -38,7 +38,9 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     position: absolute;
+    top: 100px;
 }
+
 article {
     position: absolute;
     
@@ -46,6 +48,7 @@ article {
 
 article img{
     float: right;
+    width: 300px;
 }
 
 
@@ -59,9 +62,22 @@ p {
 }
 
 .hero img {
+    position: relative;
     display: block;
     width: 100%;
     height: auto;
+    
+}
+
+.container img{
+    width: 200px;
+}
+
+.container p{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 footer img {
