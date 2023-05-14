@@ -31,6 +31,21 @@ body {
     text-align: center;
   }
 
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+header img{
+    margin: 0 0.25rem 0 1rem;
+	width: 100px;
+	height: auto;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
@@ -38,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     position: absolute;
-    top: 100px;
+    top: 140px;
 }
 
 article {
@@ -52,7 +67,7 @@ article img{
 }
 
 
- header {
+header {
     padding: 1em;
     text-align: center;
   }
@@ -69,17 +84,85 @@ p {
     
 }
 
-.container img{
-    width: 200px;
+nav {
+	text-align: right;
 }
 
-.container p{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.container img{
+    width: 300px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.container img{
+    max-width: 400px;
+}
+
+.history {
+    width: 80%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: flex-end ;
+    justify-items: flex-end;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 700px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
 }
 
 footer img {
-    width: 200px;
+    width: 300px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
 }
