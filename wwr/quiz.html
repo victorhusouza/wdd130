@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link rel="stylesheet" href="styles/quiz.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>WDD 130 | HTML Form - User Poll</title>
+    </head>
+    <body>
+        <header>
+            <h1>WDD 130 | Victor Hugo Souza | HTML Form - User Poll</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend> Basic HTML and CSS Quiz</legend>
+                    <div class="form-item column1">
+                        <label for="q1">What does the acronym CSS stand for?</label><br>
+                        <input type="text" id="q1" name="q1"><br>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="q2">How are id and class attributes select in CSS?</label><br>
+                    </div>
+                    <textarea id="q2" name="q2" rows="4" placeholder=""></textarea>
+                    <div class="form-item column1">
+                        <label for="q3">Which of the following is a valid CSS comment?</label><br>
+                        <select id="q3" name="q3">
+                            <option value="" selected disabled>Choose One...</option>                    
+                            <option value="first">/* */</option>
+                            <option value="second"> /* /* </option>
+                            <option value="third"> ** **</option>
+                        </select><br>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="q4">What is the bottom margin given in this declaration?</label><br>
+                        <img src="images/margin.png" alt="margin"><br>
+                        <input type="integer" id="q4" name="q4">
+                    </div>
+                </fieldset>
+                <button type="submit">Submit Quiz</button>
+            </form>
+        </main>
+        <footer>
+            <p>©️ 2023 VH Rafting Site Company Victor Hugo Souza</p>
+        </footer>
+    </body>
+</html>
