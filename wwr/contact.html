@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <meta name="description" content="This webpage shows the information on how to contact us if needed">
         <meta name="author" content="Victor Hugo Souza">
-        <title>Contact Us</title>  
+        <title>Contact Us | VH Rafting Company</title>  
     </head>
     <body>
         <header>
@@ -55,22 +55,19 @@
                         <label for="email">Email:</label>
                         <input type="email" id="useremail" name="useremail">
                     </div>
-                </fieldset>
-                <fieldset>
-                    <legend>Questions</legend>
                     <div class="form-item column1">
-                        <label for="message">What is the purpose of the message?</label>
-                        <select id="message" name="message">
-                            <option value="general">General Inquiry</option>
-                            <option value="reservation">Reservation Question</option>
-                            <option value="website">Website Suggestion</option>
-                            <option value="other">Other</option>                    
-                        </select><br>
+                        <p>Please select the purpose of your message:</p>
+                             <input type="radio" id="general" name="message" value="General Inquiry">
+                             <label for="html">General Inquiry</label><br>
+                             <input type="radio" id="reservation" name="message" value="reservation">
+                             <label for="reservation">Reservation Question</label><br>
+                             <input type="radio" id="website" name="message" value="website">
+                             <label for="website">Website Suggestion</label><br>
                     </div>
                     <div class="form-item column1">
                         <label for="fullmessage">Message:</label><br>
                     </div>
-                    <textarea id="fullmessage" name="fullmessage" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+                    <textarea id="fullmessage" name="fullmessage" rows="4" placeholder=""></textarea>
                     <div class="form-item column1">
                         <label for="newsletter">Please subscribe me to the monthly newsletter</label>
                         <input type="checkbox" id="newsletter" name="newsletter"><br>
