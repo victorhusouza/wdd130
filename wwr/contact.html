@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link rel="stylesheet" href="styles/rafting.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="This webpage shows the information on how to contact us if needed">
+        <meta name="author" content="Victor Hugo Souza">
+        <title>Contact Us</title>  
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.jpg" alt="Victor Hugo Souza" width="200">
+            <nav class="navigation">
+                <a href="wwr/index.html">Home</a>
+                <a href="wwr/about.html">About</a>
+                <a href="wwr/trips.html">Trips</a>
+                <a href="wwr/contact.html">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <div class="hero">
+                <img src="images/background.jpg" alt="Hero">
+                <h1>VH Rafting Site Company</h1>
+            </div>
+            <p>Address: Parque Sao Luis, Cubatão - State of São Paulo</p>
+            <p>Email: vhrafting@company.com</p>
+            <p>Phone:999-999</p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29177.610401696096!2d-46.3824807156668!3d-23.917924901650892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1684608085514!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <section class="adventures">
+                <h2>Adventure Awaits You</h2>
+                <figure>
+                    <img src="images/image-1.jpg" alt="image-1">
+                    <figcaption>Group of Rafting</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/image-2.jpg" alt="image-2">
+                    <figcaption>Group Finished Journeyg</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/image-5.jpg" alt="image-5">
+                    <figcaption>Finishing Rafting</figcaption>
+                </figure>
+            </section>
+            <form>
+                <fieldset>
+                    <legend> Contact Information</legend>
+                    <div class="form-item column2">
+                        <label for="username">User's Name</label>
+                        <input type="text" id="username" name="username"><br>
+                    </div>
+                    <div class="form-item column2">
+                        <label for="email">Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div class="form-item column1">
+                        <label for="message">What is the purpose of the message?</label>
+                        <select id="message" name="message">
+                            <option value="general">General Inquiry</option>
+                            <option value="reservation">Reservation Question</option>
+                            <option value="website">Website Suggestion</option>
+                            <option value="other">Other</option>                    
+                        </select><br>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="fullmessage">Message:</label><br>
+                    </div>
+                    <textarea id="fullmessage" name="fullmessage" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+                    <div class="form-item column1">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="newsletter" name="newsletter"><br>
+                    </div>
+                </fieldset>
+                <button type="submit">Submit Message</button>
+        </main>
+        <footer>
+            <p>©️ 2023 VH Rafting Site Company Victor Hugo Souza</p>
+            <nav class="sociallinks">
+                <a href="https://www.facebook.com/">
+                    <img src="images/facebook.svg" alt="Facebook">
+                </a>
+                <a href="https://www.twitter.com/">
+                    <img src="images/twitter.svg" alt="Twitter">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="images/instagram.png" alt="Instagram">
+                </a>
+            </nav>
+        </footer>
+    </body>
+</html>
