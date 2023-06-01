@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     position: absolute;
-    top: 140px;
+    bottom: 640px;
     color: white;
 }
 
@@ -85,9 +85,7 @@ p {
     
 }
 
-nav {
-	text-align: right;
-}
+
 
 .navigation {
 	display: flex;
