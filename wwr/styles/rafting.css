@@ -54,6 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     position: absolute;
     top: 140px;
+    color: white;
 }
 
 article {
@@ -189,3 +190,10 @@ form {
         /* Match form field borders */
         border: 1px solid #999;
       }
+
+.adventures {
+	display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: flex-start;
+}
